@@ -1,5 +1,7 @@
--- premake5.lua
-workspace "New Project"
+-- Project structure from The Cherno's Template
+
+
+workspace "Premake Test"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
    startproject "App"

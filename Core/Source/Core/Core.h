@@ -1,7 +1,8 @@
 #pragma once
+#include <string>
 
 namespace Core {
 
-	void PrintHelloWorld();
-
+	void print_int(int num);
+	void print_string(const std::string str);
 }
